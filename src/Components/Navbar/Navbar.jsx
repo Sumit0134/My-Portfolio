@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className="n-wrapper" id='Navbar'>
             <div className="n-left">
-                <a href="" style={{ textDecoration: "none", color: "var(--black)"}}><div className="n-name">Sumit</div></a>
+                <a href="/" style={{ textDecoration: "none", color: "var(--black)"}}><div className="n-name">Sumit</div></a>
             </div>
             <div className="n-right">
                 <div className="n-list">

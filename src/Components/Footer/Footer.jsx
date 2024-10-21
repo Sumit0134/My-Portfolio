@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="f-icons">
                 <a href="https://wa.me/8274060134?text=Hi, How may I help you?"><Watsapp color="white" size={"3rem"}/></a>
                 <a href="https://linkedin.com/in/sumit-kumar-shaw-723170191/"><LinkedIn color="white" size={"3rem"}/></a>
-                <a href=""><Github color="white" size={"3rem"}/></a>
+                <a href="https://github.com/Sumit0134"><Github color="white" size={"3rem"}/></a>
             </div>
         </div>
     </div>

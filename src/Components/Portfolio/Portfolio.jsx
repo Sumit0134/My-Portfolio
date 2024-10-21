@@ -53,9 +53,9 @@ const Portfolio = () => {
                 <img src={portfolio} alt="" />
                 <div className='names'>Portfolio Website</div>
                 <div className='links'>
-                <a href=""><button className="button">GitHub</button></a>
-                <a href=""><button className="button">Live</button></a>
-                <a href=""><button className="button">Demo</button></a>
+                <a href="https://github.com/Sumit0134/My-Portfolio"><button className="button">GitHub</button></a>
+                <a href="/"><button className="button">Live</button></a>
+                <a href="/"><button className="button">Demo</button></a>
                 </div>
             </SwiperSlide>
 

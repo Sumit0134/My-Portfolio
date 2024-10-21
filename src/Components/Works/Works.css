@@ -3,7 +3,7 @@
     display: flex;
     height: 55vh;
     margin-top: 4rem;
-    justify-content: start;
+    justify-content: flex-start;
 }
 
 .w-right{
@@ -99,7 +99,7 @@
     .w-right{
         display: flex;
         align-items: flex-start;
-        justify-content: start;
+        justify-content: flex-start;
         transform: scale(0.7);
     }
 

@@ -30,7 +30,7 @@
 .portfolio-slider .swiper-slide{
     width: 20rem;
     height: 80vh;
-    justify-content: start;
+    justify-content: flex-start;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -64,7 +64,7 @@
     height: 60vh;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
@@ -92,7 +92,7 @@
 .portfolio-slider .swiper-slide{
     width: 20rem; /* Default width for large screens */
     height: 20vh;
-    justify-content: start;
+    justify-content: flex-start;
     display: flex;
     align-items: center;
     flex-direction: column;

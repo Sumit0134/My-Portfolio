@@ -18,7 +18,7 @@ const transition={duration: 1, type: "spring"}
                 <span>
                 "I learn at a steady pace because I believe it helps me remember things better in the long run."
                 </span>
-                <a href=""><button className="button s-button">Download CV</button></a>
+                <a href="/"><button className="button s-button">Download CV</button></a>
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
             </div>
 
