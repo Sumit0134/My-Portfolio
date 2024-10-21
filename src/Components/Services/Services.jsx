@@ -4,7 +4,7 @@ import HeartEmoji from '../../img/heartemoji.png'
 import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
-// import Resume from '../../img/resume.png'
+import Resume from '../../img/resume.pdf'
 import {motion} from "framer-motion"   
 
 const Services = () => {
@@ -18,7 +18,7 @@ const transition={duration: 1, type: "spring"}
                 <span>
                 "I learn at a steady pace because I believe it helps me remember things better in the long run."
                 </span>
-                <a href="/"><button className="button s-button">Download CV</button></a>
+                <a href={Resume}><button className="button s-button">Download CV</button></a>
                 <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
             </div>
 
@@ -42,7 +42,7 @@ const transition={duration: 1, type: "spring"}
                     <Card
                     emoji={Glasses}
                     heading={"Web Technologies"}
-                    detail={"HTML5, CSS3, JavaScript, Node.js, Express, React"}
+                    detail={"HTML5, CSS3, JavaScript, Tailwind, Node.js, Express, React"}
                     />
                 </motion.div>
                 <motion.div 
