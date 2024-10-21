@@ -8,9 +8,6 @@ This portfolio website showcases my skills, projects, and professional backgroun
 ## **🌐 Live Project Link**
 Check out the live project at [💼 Portfolio](https://sumitportfoliowebsite.netlify.app/)
 
-## **🎥 Video Demo Link**
-Watch the video demonstration of the project here: [Video Link]()
-
 ## **💻 Technologies Used**
 - **⚛️ React** (v18.3.1) – For building the user interface
 - **🎞️ Framer Motion** – For animations and transitions
