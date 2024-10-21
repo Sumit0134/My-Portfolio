@@ -1,0 +1,81 @@
+.services{
+    height: 90vh;
+    display: flex;
+    padding: 0 3rem 0 3rem;
+    margin-top: 8rem;
+    margin-top: 9rem;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3){
+    color: var(--gray);
+    font-size: 20px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.s-button{
+    width: 8rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.cards{
+    position: relative;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+.s-blur1{
+    top: 13rem;
+    left: -18rem;
+}
+
+.s-blur2{
+    left: 14rem;
+    top: 8rem;
+}
+
+@media screen and (max-width: 480px) {
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: auto;
+        padding: 0;
+        justify-content: space-between;
+    }
+
+    .s-blur2{
+        display: none;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .cards>*{
+        position: static;
+    }
+}
